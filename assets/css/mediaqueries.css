@@ -1,0 +1,23 @@
+@media(max-width: 576px){
+
+    .home-largura{
+        width: 300px;
+    }
+
+    .servicos-margem{
+        margin-bottom: 0px;
+    }
+
+    .servicos-interna{
+        padding-bottom: 0;
+    }
+
+}
+
+@media(min-width: 577px){
+
+    .servicos-margem-md{
+        margin-bottom: 75px;
+    }
+
+}

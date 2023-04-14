@@ -1,0 +1,48 @@
+/*cores
+#3f0071
+#3ecaca
+/*
+/*Cabeçalho*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.fundo-cor{
+    background-color: #3f0071;
+}
+
+.caixa{
+    padding: 60px 0;
+}
+
+.passar-mouse:hover{
+    color: #3ecaca;
+    text-decoration: underline;
+}
+
+.passar-botao:hover{
+    color: #3ecaca;
+}
+
+.link-botao{
+    color: #3ecaca;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.caixa-sombra{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.secao-sombra{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.dynamic-text-shadow {
+    text-shadow: -5px 2px 12px rgba(0, 0, 0, 0.51);
+  }
+
+.sombra-subtitulo{
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.61);
+}
