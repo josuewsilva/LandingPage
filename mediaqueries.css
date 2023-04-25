@@ -12,7 +12,9 @@
         padding-bottom: 0;
     }
 
-    
+    .tamanho-icone{
+        font-size: 50px;
+    }
 
 }
 
@@ -20,10 +22,6 @@
 
     .servicos-margem-md{
         margin-bottom: 75px;
-    }
-
-    .tamanho-icone{
-        font-size: 50px;
     }
 
 }
