@@ -1,4 +1,4 @@
-@media(max-width: 576px){
+@media(max-width: 575.98px){
 
     .home-largura{
         width: 300px;
@@ -12,11 +12,13 @@
         padding-bottom: 0;
     }
 
-    
+    .margem-secao-pequena{
+        margin-top: 20px;
+    }
 
 }
 
-@media(min-width: 577px){
+@media(min-width: 576px){
 
     .servicos-margem-md{
         margin-bottom: 75px;
@@ -25,5 +27,6 @@
     .tamanho-icone{
         font-size: 50px;
     }
+
 
 }
