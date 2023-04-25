@@ -20,7 +20,7 @@
             <div class="container-fluid">
                 <div class="row"><!--LOGOMARCA-->
                         <div class="col-">
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="#home">
                                 <img src="assets/imagens/logoTRAFFrodapeSite.png" alt="logo escrito traff na cor ciano">
                             </a>
                             <span class="fs-4">Marketing Digital</span>
@@ -85,9 +85,27 @@
         </nav>
     </header><!--FIM CABEÇALHO-->
 
-    <section id="home" class="container"><!--INÍCIO HOME-->
-        <div class="row justify-content-center pt-5">
-            <div class="col-sm-5 d-flex">
+    <section id="home" class="container-fluid"><!--INÍCIO HOME-->
+        <div class="row">
+            <div class="col-md-12 px-0 d-none d-sm-block">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/imagens/bannerTRaff01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/imagens/bannerTRaff02.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/imagens/bannerTRaff03.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-5 d-flex d-block d-sm-none">
                 <div class="align-self-center">
                     <h1 class="display-2">
                         Sua marca no ambiente certo
@@ -96,7 +114,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-5 d-none d-sm-block">
+            <div class="col-sm-5 d-block d-sm-none">
                 <img src="assets/imagens/marketing-amico.png" width="400" alt="">
             </div>
         </div>
